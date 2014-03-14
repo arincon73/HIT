@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD07EC018D38FF0008F72AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EBF18D38FF0008F72AB /* Foundation.framework */; };
+		FBD07EC218D38FF0008F72AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EC118D38FF0008F72AB /* CoreGraphics.framework */; };
+		FBD07EC418D38FF0008F72AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EC318D38FF0008F72AB /* UIKit.framework */; };
+		FBD07EC618D38FF0008F72AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EC518D38FF0008F72AB /* CoreData.framework */; };
+		FBD07ECC18D38FF0008F72AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBD07ECA18D38FF0008F72AB /* InfoPlist.strings */; };
+		FBD07ECE18D38FF0008F72AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD07ECD18D38FF0008F72AB /* main.m */; };
+		FBD07ED218D38FF0008F72AB /* HITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD07ED118D38FF0008F72AB /* HITAppDelegate.m */; };
+		FBD07ED518D38FF0008F72AB /* HomeImprovementTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBD07ED318D38FF0008F72AB /* HomeImprovementTracker.xcdatamodeld */; };
+		FBD07ED718D38FF0008F72AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD07ED618D38FF0008F72AB /* Images.xcassets */; };
+		FBD07EDE18D38FF0008F72AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EDD18D38FF0008F72AB /* XCTest.framework */; };
+		FBD07EDF18D38FF0008F72AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EBF18D38FF0008F72AB /* Foundation.framework */; };
+		FBD07EE018D38FF0008F72AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EC318D38FF0008F72AB /* UIKit.framework */; };
+		FBD07EE118D38FF0008F72AB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD07EC518D38FF0008F72AB /* CoreData.framework */; };
+		FBD07EE918D38FF0008F72AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBD07EE718D38FF0008F72AB /* InfoPlist.strings */; };
+		FBD07EEB18D38FF0008F72AB /* HomeImprovementTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD07EEA18D38FF0008F72AB /* HomeImprovementTrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBD07EE218D38FF0008F72AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBD07EB418D38FF0008F72AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBD07EBB18D38FF0008F72AB;
+			remoteInfo = HomeImprovementTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBD07EBC18D38FF0008F72AB /* HomeImprovementTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeImprovementTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD07EBF18D38FF0008F72AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBD07EC118D38FF0008F72AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBD07EC318D38FF0008F72AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBD07EC518D38FF0008F72AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBD07EC918D38FF0008F72AB /* HomeImprovementTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeImprovementTracker-Info.plist"; sourceTree = "<group>"; };
+		FBD07ECB18D38FF0008F72AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBD07ECD18D38FF0008F72AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD07ECF18D38FF0008F72AB /* HomeImprovementTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeImprovementTracker-Prefix.pch"; sourceTree = "<group>"; };
+		FBD07ED018D38FF0008F72AB /* HITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HITAppDelegate.h; sourceTree = "<group>"; };
+		FBD07ED118D38FF0008F72AB /* HITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HITAppDelegate.m; sourceTree = "<group>"; };
+		FBD07ED418D38FF0008F72AB /* HomeImprovementTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeImprovementTracker.xcdatamodel; sourceTree = "<group>"; };
+		FBD07ED618D38FF0008F72AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBD07EDC18D38FF0008F72AB /* HomeImprovementTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeImprovementTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD07EDD18D38FF0008F72AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FBD07EE618D38FF0008F72AB /* HomeImprovementTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeImprovementTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		FBD07EE818D38FF0008F72AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBD07EEA18D38FF0008F72AB /* HomeImprovementTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeImprovementTrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD07EB918D38FF0008F72AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD07EC218D38FF0008F72AB /* CoreGraphics.framework in Frameworks */,
+				FBD07EC618D38FF0008F72AB /* CoreData.framework in Frameworks */,
+				FBD07EC418D38FF0008F72AB /* UIKit.framework in Frameworks */,
+				FBD07EC018D38FF0008F72AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD07ED918D38FF0008F72AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD07EDE18D38FF0008F72AB /* XCTest.framework in Frameworks */,
+				FBD07EE118D38FF0008F72AB /* CoreData.framework in Frameworks */,
+				FBD07EE018D38FF0008F72AB /* UIKit.framework in Frameworks */,
+				FBD07EDF18D38FF0008F72AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD07EB318D38FF0008F72AB = {
+			isa = PBXGroup;
+			children = (
+				FBD07EC718D38FF0008F72AB /* HomeImprovementTracker */,
+				FBD07EE418D38FF0008F72AB /* HomeImprovementTrackerTests */,
+				FBD07EBE18D38FF0008F72AB /* Frameworks */,
+				FBD07EBD18D38FF0008F72AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD07EBD18D38FF0008F72AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD07EBC18D38FF0008F72AB /* HomeImprovementTracker.app */,
+				FBD07EDC18D38FF0008F72AB /* HomeImprovementTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD07EBE18D38FF0008F72AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD07EBF18D38FF0008F72AB /* Foundation.framework */,
+				FBD07EC118D38FF0008F72AB /* CoreGraphics.framework */,
+				FBD07EC318D38FF0008F72AB /* UIKit.framework */,
+				FBD07EC518D38FF0008F72AB /* CoreData.framework */,
+				FBD07EDD18D38FF0008F72AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD07EC718D38FF0008F72AB /* HomeImprovementTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FBD07ED018D38FF0008F72AB /* HITAppDelegate.h */,
+				FBD07ED118D38FF0008F72AB /* HITAppDelegate.m */,
+				FBD07ED618D38FF0008F72AB /* Images.xcassets */,
+				FBD07ED318D38FF0008F72AB /* HomeImprovementTracker.xcdatamodeld */,
+				FBD07EC818D38FF0008F72AB /* Supporting Files */,
+			);
+			path = HomeImprovementTracker;
+			sourceTree = "<group>";
+		};
+		FBD07EC818D38FF0008F72AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD07EC918D38FF0008F72AB /* HomeImprovementTracker-Info.plist */,
+				FBD07ECA18D38FF0008F72AB /* InfoPlist.strings */,
+				FBD07ECD18D38FF0008F72AB /* main.m */,
+				FBD07ECF18D38FF0008F72AB /* HomeImprovementTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBD07EE418D38FF0008F72AB /* HomeImprovementTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBD07EEA18D38FF0008F72AB /* HomeImprovementTrackerTests.m */,
+				FBD07EE518D38FF0008F72AB /* Supporting Files */,
+			);
+			path = HomeImprovementTrackerTests;
+			sourceTree = "<group>";
+		};
+		FBD07EE518D38FF0008F72AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD07EE618D38FF0008F72AB /* HomeImprovementTrackerTests-Info.plist */,
+				FBD07EE718D38FF0008F72AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD07EBB18D38FF0008F72AB /* HomeImprovementTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD07EEE18D38FF0008F72AB /* Build configuration list for PBXNativeTarget "HomeImprovementTracker" */;
+			buildPhases = (
+				FBD07EB818D38FF0008F72AB /* Sources */,
+				FBD07EB918D38FF0008F72AB /* Frameworks */,
+				FBD07EBA18D38FF0008F72AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeImprovementTracker;
+			productName = HomeImprovementTracker;
+			productReference = FBD07EBC18D38FF0008F72AB /* HomeImprovementTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBD07EDB18D38FF0008F72AB /* HomeImprovementTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD07EF118D38FF0008F72AB /* Build configuration list for PBXNativeTarget "HomeImprovementTrackerTests" */;
+			buildPhases = (
+				FBD07ED818D38FF0008F72AB /* Sources */,
+				FBD07ED918D38FF0008F72AB /* Frameworks */,
+				FBD07EDA18D38FF0008F72AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBD07EE318D38FF0008F72AB /* PBXTargetDependency */,
+			);
+			name = HomeImprovementTrackerTests;
+			productName = HomeImprovementTrackerTests;
+			productReference = FBD07EDC18D38FF0008F72AB /* HomeImprovementTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD07EB418D38FF0008F72AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HIT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Actions and Results consultinb";
+				TargetAttributes = {
+					FBD07EDB18D38FF0008F72AB = {
+						TestTargetID = FBD07EBB18D38FF0008F72AB;
+					};
+				};
+			};
+			buildConfigurationList = FBD07EB718D38FF0008F72AB /* Build configuration list for PBXProject "HomeImprovementTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBD07EB318D38FF0008F72AB;
+			productRefGroup = FBD07EBD18D38FF0008F72AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD07EBB18D38FF0008F72AB /* HomeImprovementTracker */,
+				FBD07EDB18D38FF0008F72AB /* HomeImprovementTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD07EBA18D38FF0008F72AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD07ECC18D38FF0008F72AB /* InfoPlist.strings in Resources */,
+				FBD07ED718D38FF0008F72AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD07EDA18D38FF0008F72AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD07EE918D38FF0008F72AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD07EB818D38FF0008F72AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD07ED518D38FF0008F72AB /* HomeImprovementTracker.xcdatamodeld in Sources */,
+				FBD07ED218D38FF0008F72AB /* HITAppDelegate.m in Sources */,
+				FBD07ECE18D38FF0008F72AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD07ED818D38FF0008F72AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD07EEB18D38FF0008F72AB /* HomeImprovementTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBD07EE318D38FF0008F72AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBD07EBB18D38FF0008F72AB /* HomeImprovementTracker */;
+			targetProxy = FBD07EE218D38FF0008F72AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBD07ECA18D38FF0008F72AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD07ECB18D38FF0008F72AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBD07EE718D38FF0008F72AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD07EE818D38FF0008F72AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD07EEC18D38FF0008F72AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBD07EED18D38FF0008F72AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD07EEF18D38FF0008F72AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeImprovementTracker/HomeImprovementTracker-Prefix.pch";
+				INFOPLIST_FILE = "HomeImprovementTracker/HomeImprovementTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBD07EF018D38FF0008F72AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeImprovementTracker/HomeImprovementTracker-Prefix.pch";
+				INFOPLIST_FILE = "HomeImprovementTracker/HomeImprovementTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FBD07EF218D38FF0008F72AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeImprovementTracker.app/HomeImprovementTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeImprovementTracker/HomeImprovementTracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomeImprovementTrackerTests/HomeImprovementTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FBD07EF318D38FF0008F72AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeImprovementTracker.app/HomeImprovementTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeImprovementTracker/HomeImprovementTracker-Prefix.pch";
+				INFOPLIST_FILE = "HomeImprovementTrackerTests/HomeImprovementTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD07EB718D38FF0008F72AB /* Build configuration list for PBXProject "HomeImprovementTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD07EEC18D38FF0008F72AB /* Debug */,
+				FBD07EED18D38FF0008F72AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD07EEE18D38FF0008F72AB /* Build configuration list for PBXNativeTarget "HomeImprovementTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD07EEF18D38FF0008F72AB /* Debug */,
+				FBD07EF018D38FF0008F72AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBD07EF118D38FF0008F72AB /* Build configuration list for PBXNativeTarget "HomeImprovementTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD07EF218D38FF0008F72AB /* Debug */,
+				FBD07EF318D38FF0008F72AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBD07ED318D38FF0008F72AB /* HomeImprovementTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBD07ED418D38FF0008F72AB /* HomeImprovementTracker.xcdatamodel */,
+			);
+			currentVersion = FBD07ED418D38FF0008F72AB /* HomeImprovementTracker.xcdatamodel */;
+			path = HomeImprovementTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBD07EB418D38FF0008F72AB /* Project object */;
+}
